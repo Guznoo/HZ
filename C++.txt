@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+ using namespace std;
+
+int main() {
+    int price;
+    string productName;
+
+    cout << "Enter the name of the product: ";
+    cin >> productName;
+    cout << "Enter the price of the product: ";
+    cin >> price;
+
+    cout << "You have entered a product: " << productName << " by price " << price << " grn." << endl;
+
+    return 0;
+}
